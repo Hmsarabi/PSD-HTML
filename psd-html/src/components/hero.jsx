@@ -4,7 +4,7 @@ const hero = () => {
       <header className="flex">
               <nav className=" w-1/2 rounded-br-2xl bg-slate-950 text-white">
                   <ul className="flex  w-full flex-wrap py-2 font-light text-sm justify-around ">
-                      <li>Logo</li>
+                      <li className="sofia">Logo</li>
                       <li className=" hover:bg-white hover:text-slate-950"><a href="">Home</a></li>
                       <li className=" hover:bg-white hover:text-slate-950"><a href="">About</a></li>
                       <li className=" hover:bg-white hover:text-slate-950"><a href="">Solutions</a></li>
@@ -16,7 +16,7 @@ const hero = () => {
       </header>
       <main className="">
           <section className="flex flex-wrap justify-between relative">
-              <div className="w-1/2 p-10 border border-red-200 ">
+              <div className="w-1/2 p-10 ">
                   <h1 className="text-xl font-bold">THE MAD HATTER*</h1>
                   <h2 className="text-xl">UI/UX DESIGN — 001</h2>
                   <p className="py-8 text-xs"><i className="fa-regular fa-circle"></i> <i className="fa-regular fa-circle"></i></p>
@@ -25,10 +25,10 @@ const hero = () => {
                       nisi ut aliquip ex ea commodo consequat.</p>
               </div>
   
-              <div className="border border-red-200 w-1/2 py-8 pl-20 ">
+              <div className=" w-1/2 pt-8 pl-20 ">
                   <img className="h-60" src="public/img/1.png" alt="" />
-                  
                   <div>June 2020</div>
+                  <p><i className="fa-solid fa-arrow-down"></i></p>
                  
               </div>
               
