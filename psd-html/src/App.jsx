@@ -16,6 +16,7 @@ function App() {
         position: "relative",
       }}
     >
+      <Hero />
       <OurProjects />
       <Testimonials />
       <Footer />
