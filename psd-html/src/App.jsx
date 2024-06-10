@@ -1,5 +1,5 @@
-import React from "react";
 import "./App.css";
+import Hero from "./components/hero.jsx";
 
 import Footer from "./components/footer.jsx";
 import OurProjects from "./components/cards.jsx";
