@@ -4,9 +4,9 @@ import "./CSS/footer.css";
 
 const Footer = () => {
   return (
-    <div>
-      <section className="future-section">
-        <div className="img-container">
+    <div className="">
+      <section className="future-section bg-white">
+        <div className="img-container mt-9 ">
           <img src="../img/5.png" alt="picture" className="img-itself" />
         </div>
         <div className="second-section">
@@ -62,6 +62,5 @@ const Footer = () => {
     </div>
   );
 };
-
 
 export default Footer;
