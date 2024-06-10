@@ -1,6 +1,6 @@
+import About from './components/about.jsx';
 import "./App.css";
 import Hero from "./components/hero.jsx";
-
 import Footer from "./components/footer.jsx";
 import OurProjects from "./components/cards.jsx";
 import Testimonials from "./components/testimonials";
@@ -17,6 +17,7 @@ function App() {
       }}
     >
       <Hero />
+      <About />
       <OurProjects />
       <Testimonials />
       <Footer />
