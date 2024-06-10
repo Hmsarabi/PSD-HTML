@@ -20,7 +20,7 @@
   grid-column: 3 / 6;
   grid-row: 1;
   z-index: 2;
-  border: 2px solid rgb(216, 22, 22);
+
   min-width: 100%;
 }
 
@@ -29,20 +29,20 @@
   font-size: 94.01px;
   float: left;
   padding-top: 4rem;
-  padding-left: 8rem;
-  border: solid 2px black;
+
   min-width: 100%;
+  text-align: right;
 }
 .future-section-h2 {
-  font-size: 119.12px;
+  font-size: 94.01px;
   color: rgb(3, 3, 3);
-  border: solid 2px black;
   float: left;
-  padding-left: 8rem;
+  text-align: right;
   min-width: 100%;
 }
 
 .future-section-p {
+  margin: 1rem;
   font-size: 16.88px;
   color: 030303;
   max-width: 500px;
