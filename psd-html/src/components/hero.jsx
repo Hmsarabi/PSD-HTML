@@ -1,6 +1,6 @@
 const hero = () => {
   return (
-    <div className="border border-gray-400 h-96 rounded-3xl m-6">
+    <div className="border border-gray-400 h-96 rounded-3xl m-6 bg-white">
       <header className="flex">
         <nav className=" w-1/2 rounded-br-2xl bg-slate-950 text-white">
           <ul className="flex  w-full flex-wrap py-2 font-light text-sm justify-around ">
