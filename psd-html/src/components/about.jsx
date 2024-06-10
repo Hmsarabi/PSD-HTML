@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div>
-      <div className="mx-auto px-4 py-8 bg-black h-screen">
+      <div className="mx-auto px-4 py-8 h-screen">
         <div>
           <h1 className=" flex text-white text-8xl font-bold justify-center">
             ABOUT
@@ -48,26 +48,6 @@ const About = () => {
               deserunt!
             </p>
           </div>
-        </div>
-      </div>
-      <div className="mx-auto px-4 py-20 bg-white h-screen ">
-        <div>
-          <h1 className="text-8xl text-bold justify-center flex">
-            <span className="font-bold">DESIGN</span>{" "}
-            <span className="font-light ml-3">APPROACH</span>
-          </h1>
-        </div>
-        <div className="m-10 grid grid-cols-2 gap-4 ml-20">
-          <div className=" flex justify-center ">
-            <h1 className="text-3xl font-bold">001</h1>
-          </div>
-          <div className=" flex justify-center ">
-            <h1 className="text-3xl font-bold">001</h1>
-          </div>
-          <div className=" flex justify-center ">
-            <h1 className="text-3xl font-bold">001</h1>
-          </div >
-          <div className="flex justify-center "><h1 className="text-3xl font-bold" >002</h1></div>
         </div>
       </div>
     </div>

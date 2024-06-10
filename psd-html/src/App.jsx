@@ -1,13 +1,28 @@
-import React from 'react'
-import './App.css';
 import About from './components/about.jsx';
+import "./App.css";
+import Hero from "./components/hero.jsx";
+import Footer from "./components/footer.jsx";
+import OurProjects from "./components/cards.jsx";
+import Testimonials from "./components/testimonials";
 
 function App() {
-  
-
   return (
-   <About />
-  )
+    <div
+      style={{
+        backgroundImage: 'url("/img/Background.png")',
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        minHeight: "100vh",
+        position: "relative",
+      }}
+    >
+      <Hero />
+      <About />
+      <OurProjects />
+      <Testimonials />
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
