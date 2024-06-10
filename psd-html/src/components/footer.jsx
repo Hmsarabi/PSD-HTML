@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./CSS/footer.css";
 
 const Footer = () => {
@@ -61,4 +62,6 @@ const Footer = () => {
     </div>
   );
 };
+
+
 export default Footer;
