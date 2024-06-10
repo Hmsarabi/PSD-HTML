@@ -73,3 +73,22 @@ ul {
   text-align: center;
   padding: 1rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .future-section {
+    display: flex;
+    grid-template-rows: repeat(2, 1fr);
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
