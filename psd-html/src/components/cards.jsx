@@ -1,3 +1,5 @@
+import "./CSS/cards.css";
+
 function ProjectCard({ title, date, imageName, description }) {
   const imagePath = `./img/${imageName}`;
 
@@ -7,7 +9,12 @@ function ProjectCard({ title, date, imageName, description }) {
       style={{ maxWidth: "400px" }}
     >
       <div className="relative">
-        <img src={imagePath} alt={title} className="w-full h-48 object-cover" />
+        <img
+          src={imagePath}
+          alt={title}
+          className="w-full h-64 object-cover object-center"
+          style={{ minHeight: "200px" }}
+        />
         <div
           className="absolute bottom-0 p-2 bg-gray-200 rounded-l-md border-l-4 border-gray-500"
           style={{ right: 0 }}
@@ -16,8 +23,14 @@ function ProjectCard({ title, date, imageName, description }) {
         </div>
       </div>
       <div className="p-6">
-        <h3 className="text-xl font-bold mb-2">{title}</h3>
-        <p className="text-white">{description}</p>
+        <div className="flex items-center justify-between mb-2">
+          <h3 className="text-xl font-bold">{title}</h3>
+          <div className="flex items-center">
+            <span className="w-6 h-6 border border-white rounded-full flex items-center justify-center mr-2"></span>
+            <span className="w-6 h-6 border border-white rounded-full flex items-center justify-center"></span>
+          </div>
+        </div>
+        <p className="text-white text-justify">{description}</p>
       </div>
     </div>
   );
