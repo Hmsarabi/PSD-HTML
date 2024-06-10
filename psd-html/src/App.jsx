@@ -1,10 +1,12 @@
-import './App.css'
+import React from 'react'
+import './App.css';
+import About from './components/about.jsx';
 
 function App() {
   
 
   return (
-   <div>Hello World!</div>
+   <About />
   )
 }
 
