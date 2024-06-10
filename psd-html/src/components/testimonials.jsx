@@ -2,7 +2,7 @@ import React from "react";
 
 function Testimonials() {
   return (
-    <section className="py-16 bg-black text-white">
+    <section className="py-16 bg-transparent text-white">
       <div className="container mx-auto px-4 lg:px-24">
         <h2 className="text-3xl font-bold mb-8 text-center">WHAT THEY SAY</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -82,7 +82,7 @@ function Testimonials() {
             </blockquote>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-5">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-5 mb-5">
           {/* Testimonial 1 */}
           <div className="bg-white p-8 rounded-xl shadow-md relative">
             <blockquote className="text-lg leading-relaxed mb-4">
