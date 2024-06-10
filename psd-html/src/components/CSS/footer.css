@@ -1,0 +1,18 @@
+.future-section {
+  background-color: rgb(147, 147, 196);
+}
+
+.future-section-h1 {
+  font-size: 94.01px;
+  border: 2px solid black;
+}
+.future-section-h2 {
+  font-size: 119.12px;
+  color: white;
+}
+
+.future-section-p {
+  font-size: 16.88px;
+  color: 030303;
+  border: 2px solid black;
+}
