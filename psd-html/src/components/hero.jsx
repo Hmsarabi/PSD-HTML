@@ -3,7 +3,7 @@ return (
 <div className="border border-gray-400 h-96 rounded-3xl m-6">
     <header className="flex flex-wrap justify-between">
         <nav className=" w-1/2 rounded-br-2xl bg-slate-950 text-white">
-            <ul className="flex  w-full flex-wrap py-2 font-light text-sm justify-around ">
+            <ul className="flex flex-wrap py-2 font-light text-sm justify-around ">
                 <li className="sofia">Logo</li>
                 <li className=" hover:bg-white hover:text-slate-950"><a href="">Home</a></li>
                 <li className=" hover:bg-white hover:text-slate-950"><a href="">About</a></li>
@@ -21,8 +21,8 @@ return (
                 <h1 className="text-xl font-bold">THE MAD HATTER*</h1>
                 <h2 className="text-xl">UI/UX DESIGN — 001</h2>
                 <p className="py-8 text-xs"><i className="fa-regular fa-circle"></i> <i
-                        className="fa-regular fa-circle"></i></p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        className="fa-regular fa-circle" ></i></p>
+                <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                     nisi ut aliquip ex ea commodo consequat.</p>
             </div>
